@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lyft</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body onload="init()">
+<!--HEADER------------------------------------->
+<header>
+    <div class="container text-center">
+        <a href="init.html"><i class="glyphicon glyphicon-chevron-left arrow"></i></a>
+        <h2>Sign up</h2>
+        <p>Join now for free ride credit</p>
+        <hr>
+    </div>
+</header>
+<!--section------------------------------------------------------>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">     
+                <div class="input-group">
+                    <div class="input-group-btn">
+                        <button type="button" class="btn btn-default" aria-expanded="false" id="button"><a href="country-select.html"><img src="images/flags/flat/16/Peru.png" id="flag-country"><span class="caret"></span></a></button>
+                        <button type="button" class="btn btn-default" id="button"><strong id="code-country">+51</strong></button>
+                    </div>
+
+                    <input type="tel" class="form-control" placeholder="123456789" id="user-number">
+                </div>
+            <br>   
+            <p class="text-center">We'll send a text to verify your phone</p>
+        </div>
+        </div>
+    </div>
+</section>
+<!--button---------------------------------------next-->
+<div class="text-center next">
+    <a href="info-user.html">Next</a>
+</div>
+
+<script type="text/javascript" src="js/countries-name.js"></script>
+<script type="text/javascript" src="js/signup.js"></script>
+</body>
+</html>
